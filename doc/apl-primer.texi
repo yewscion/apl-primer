@@ -1,11 +1,11 @@
-@c Variables: apl-primer Project Name project-category
+@c Variables: apl-primer GNU APL Primer project-category
 \input texinfo
 @c -*-texinfo-*-
 
 @c %**start of header
 @setfilename apl-primer.info
 @documentencoding UTF-8
-@settitle Project Name Reference Manual
+@settitle The GNU APL Primer
 @c %**end of header
 
 @include version.texi
@@ -21,14 +21,14 @@ copy of the license is included in the section entitled ``GNU Free
 Documentation License''.
 @end copying
 
-@dircategory project-category
+@dircategory Array Languages
 @direntry
-* Project Name: (apl-primer).   
+* GNU APL Primer: (apl-primer).
 @end direntry
 
 @titlepage
-@title The Project Name Manual
-@author Christopher Rodriguez
+@title The GNU APL Primer
+@author Christopher Rodriguez (yewscion)
 
 @page
 @vskip 0pt plus 1filll
@@ -40,14 +40,14 @@ Documentation License''.
 
 @c *********************************************************************
 @node Top
-@top Project Name
+@top GNU APL Primer
 
-This document describes Project Name version @value{VERSION}.
+This document it the GNU APL Primer, version @value{VERSION}.
 
 @menu
 * Introduction::                Why a GNU APL primer?
 
-* Algorithms::                 Setting aside the glyphs.
+* Algorithms::                  Setting aside the glyphs.
 
 * Concept Index::               Concepts Used, and Where.
 * Programming Index::           Functions, Variables, Etc.
