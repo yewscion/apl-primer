@@ -34,7 +34,7 @@ EXTRA_DIST =  Changelog.md \
 
 # Define Outputs
 
-all: doc-text doc-html doc-docb doc-lpdf
+all: doc-text doc-html doc-docb #doc-lpdf
 
 doc-text: 
 	texi2any --plaintext $(infofiles) > apl-primer.txt
@@ -45,8 +45,8 @@ doc-html:
 doc-docb:
 	texi2any --docbook $(infofiles)
 
-doc-lpdf:
-	texi2pdf -c $(infofiles)
+#doc-lpdf:
+#	latex=lualatex pdflatex=lualatex texi2pdf -c $(infofiles)
 
 
 ## Symlinks Can Go Here, along with other end-of-install changes

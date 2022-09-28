@@ -30,7 +30,7 @@
     "a programming language."))
   (home-page
    "https://git.sr.ht/~yewscion/apl-primer/")
-  (license license:fdl1.3))
+  (license license:fdl1.3+))
 ;; Local Variables:
 ;; mode: scheme
 ;; End:
