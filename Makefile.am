@@ -25,6 +25,7 @@ EXTRA_DIST =  Changelog.md \
               m4/tar-edited.m4 \
               guix.scm \
 	      doc/apl-primer.texi \
+	      doc/algorithms.texi \
               doc/version.texi.in \
               doc/fdl-1.3.texi \
               doc/procedure-types.texi

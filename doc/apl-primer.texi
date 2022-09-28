@@ -47,6 +47,8 @@ This document describes Project Name version @value{VERSION}.
 @menu
 * Introduction::                Why a GNU APL primer?
 
+* Algorithms::                 Setting aside the glyphs.
+
 * Concept Index::               Concepts Used, and Where.
 * Programming Index::           Functions, Variables, Etc.
 
@@ -59,11 +61,96 @@ This document describes Project Name version @value{VERSION}.
 Introduction
 @c add other sections with subsections as above.
 
+Algorithms
+
+* Conjugate::
+* Addition::
+* Negate::
+* Subtraction::
+* Signum::
+* Times::
+* Reciprocal::
+* Division::
+* Magnitude::
+* Modulo::
+* Exponential::
+* Power::
+* Natural Logarithm::
+* Logarithm::
+* Ceiling::
+* Maximum::
+* Floor::
+* Minimum::
+* Factorial::
+* Binomial::
+* Pi Times::
+* Circular Functions::
+* Roll::
+* Deal::
+* Grade Up::
+* Grade Down::
+* Matrix Inverse::
+* Matrix Divide::
+* Execute::
+* Format::
+* Base::
+* Represent::
+* Expand::
+* Scan::
+* Replicate::
+* Reduce::
+* Less Than::
+* Greater Than::
+* Less Than or Equal To::
+* Greater Than or Equal To::
+* Equal To::
+* Not Equal To::
+* Logical Not::
+* Logical And::
+* Least Common Multiple::
+* Logical Or::
+* Greatest Common Divisor::
+* Logical Nand::
+* Logical Nor::
+* Depth::
+* Match::
+* Enlist::
+* Member Of::
+* Find::
+* Index::
+* Iota::
+* Index Of::
+* Shape Of::
+* Reshape::
+* Reverse::
+* Rotate::
+* Transpose::
+* Rearrange::
+* First::
+* Take::
+* Drop::
+* Enclose::
+* Partition::
+* Mix::
+* Pick::
+* Ravel::
+* Catenate::
+* Each::
+* Inner Product::
+* Outer Product::
+* Commute::
+* Indices::
+* Power Operator::
+* Identity::
+* Right::
+* Hide::
+* Left::
+
 @end detailmenu
 @end menu
 
 @c *********************************************************************
-@node Introduction, Concept Index, Top, Top
+@node Introduction, Algorithms, Top, Top
 @chapter Introduction
 
 The purpose of this document is to provide a single source of documentation
@@ -114,9 +201,10 @@ The hope is that this document might help someone interested in the language
 learn how things work in a more cohesive way, and to make the GNU APL
 language more accessible in doing so.
 
-@menu
-
-@end menu
+@c *********************************************************************
+@node Algorithms
+@chapter Algorithms
+@include algorithms.texi
 
 @c *********************************************************************
 @node Concept Index, Programming Index, Introduction, Top
