@@ -9,7 +9,7 @@ ACLOCAL_AMFLAGS = -I m4
 info_TEXINFOS = doc/apl-primer.texi
 
 ## Second listing, for srcdir
-infofiles = $(srcdir)/doc/bqn-primer.texi
+infofiles = $(srcdir)/doc/apl-primer.texi
 
 ## Extra Files for Distribution
 EXTRA_DIST =  Changelog.md \
@@ -33,18 +33,18 @@ EXTRA_DIST =  Changelog.md \
 
 # Define Outputs
 
-all: gen-text gen-html gen-docb gen-lpdf
+all: doc-text doc-html doc-docb doc-lpdf
 
-gen-text: 
-	texi2any --plaintext $(infofiles) > bqn-primer.txt
+doc-text: 
+	texi2any --plaintext $(infofiles) > apl-primer.txt
 
-gen-html:
+doc-html:
 	texi2any --html $(infofiles)
 
-gen-docb:
+doc-docb:
 	texi2any --docbook $(infofiles)
 
-gen-lpdf:
+doc-lpdf:
 	texi2pdf -c $(infofiles)
 
 
