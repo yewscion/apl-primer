@@ -45,7 +45,7 @@ Documentation License''.
 This document describes Project Name version @value{VERSION}.
 
 @menu
-* Introduction::                Why Project Name?
+* Introduction::                Why a GNU APL primer?
 
 * Concept Index::               Concepts Used, and Where.
 * Programming Index::           Functions, Variables, Etc.
@@ -66,11 +66,53 @@ Introduction
 @node Introduction, Concept Index, Top, Top
 @chapter Introduction
 
-The purpose of this library is .
+The purpose of this document is to provide a single source of documentation
+that those interested in using GNU APL as a programming language (and/or
+programming environment) can use to get up to speed with the basics as
+quickly as possible.
 
-It was started when .
+It was started when I wanted to learn GNU APL; I spent, in my opinion, far
+too long trying to figure out idiosyncracies and specifics that may have been
+left out of this or that source, but were present in the language. As an
+example, when I began learning GNU APL, I had the following incomplete and
+terse sources of information:
 
-The hope is that .
+@itemize
+
+@item
+The @url{https://aplwiki.com/, APL Wiki}, which has a marked focus toward
+Dyalog APL specifically.
+
+@item
+@url{https://xpqz.github.io/learnapl/intro.html, "Learning APL"}, again
+focused and using Dyalog APL.
+
+@item
+Lucas Viera's @url{https://luksamuk.codes/pages/learn-apl.html, "Learn APL
+Notes"}, which was useful but terse and focused on usability rather than
+understanding.
+
+@item
+@url{https://microapl.com/apl_help/ch.htm, "APLX Help"}, which is for a
+different (and proprietary) product.
+
+@item
+The #apl channel on Libera Chat.
+
+@item
+@url{https://codegolf.stackexchange.com/, "Code Golf" on Stack Exchange},
+which isn't focused on teaching the language.
+
+@item
+@url{https://archive.org/details/apl-2-at-a-glance-brown-pakin-polivka, "APL2
+at a Glance"}, a textbook that teaches IBM APL2, which is close (but not
+exactly) GNU APL.
+
+@end itemize
+
+The hope is that this document might help someone interested in the language
+learn how things work in a more cohesive way, and to make the GNU APL
+language more accessible in doing so.
 
 @menu
 
